@@ -2,11 +2,6 @@
 // ----------------------- //
 // ::: Yupik Grandient ::: //
 // ------------------------//
-
-
-// Default variable
-$yupik-gradient-lt9-compatibility: $yupik-lt9-compatibility !default;
-
  
 // !Dependencies: http://compass-style.org
 
@@ -16,9 +11,9 @@ $yupik-gradient-lt9-compatibility: $yupik-lt9-compatibility !default;
 // @param $startColor => top or left color
 // @param $endColor => bottom or right color
 // @param $horizontal => pass "horizontal" if need horizontal gradient
-// @use: @include linearGradient(#666 #ccc); => http://compass-style.org/examples/compass/css3/gradient/
+// @use: @include linear-gradient(#666 #ccc); => http://compass-style.org/examples/compass/css3/gradient/
 // @set svg support for IE9 in base.scss
-@mixin linearGradient($param) 
+@mixin linear-gradient($param) 
 {
     $horizontal: "";
 
@@ -42,14 +37,14 @@ $yupik-gradient-lt9-compatibility: $yupik-lt9-compatibility !default;
         }
     }
     @else {
-        @warn "You need 2 or 3 parameters for linearGradient mixin";
+        @warn "You need 2 or 3 parameters for linear-gradient mixin";
     }
 }
 
 
-// Remove fully and properly "linearGradient" mixin
+// Remove fully and properly "linear-gradient" mixin
 // ================================================
-@mixin removeLinearGradient() {
+@mixin remove-linear-gradient() {
     background-color: transparent;
     filter: none;
     background-image: none;
