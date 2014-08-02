@@ -1,7 +1,7 @@
 {
-  "name": "grand-wazoo-mixin-gradient",
+  "name": "yupik-mixin-gradient",
   "version": "0.0.1",
-  "homepage": "https://github.com/laurentperroteau/grand-wazoo-mixin-gradient",
+  "homepage": "https://github.com/laurentperroteau/yupik-mixin-gradient",
   "authors": [
     "laurentperroteau <laurentperroteau@gmail.com>"
   ],
@@ -24,6 +24,6 @@
     "tests"
   ],
   "dependencies": {
-    "grand-wazoo-function": "~0.0.1"
+    "yupik-function": "~0.0.1"
   }
 }

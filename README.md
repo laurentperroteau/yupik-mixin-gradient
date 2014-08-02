@@ -1,5 +1,5 @@
-Grand Wazoo Mixin Gradient
-==========================
+Yupik Mixin Gradient
+====================
 
 ## reworking in progress !
 
@@ -7,4 +7,4 @@ Grand Wazoo Mixin Gradient
 
 Install using Bower:
 
-    $ bower install --save grand-wazoo-mixin-gradient
+    $ bower install --save yupik-mixin-gradient

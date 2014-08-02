@@ -1,11 +1,11 @@
 
-// ----------------------------- //
-// ::: Grand Wazoo Grandient ::: //
-// ------------------------------//
+// ----------------------- //
+// ::: Yupik Grandient ::: //
+// ------------------------//
 
 
 // Default variable
-$gw-gradient-lt9-compatibility: $gw-lt9-compatibility !default;
+$yupik-gradient-lt9-compatibility: $yupik-lt9-compatibility !default;
 
  
 // !Dependencies: http://compass-style.org
@@ -30,7 +30,7 @@ $gw-gradient-lt9-compatibility: $gw-lt9-compatibility !default;
 
         background-color: $startColor;
 
-        @if $gw-lt9-compatibility {
+        @if $yupik-lt9-compatibility {
             @include filter-gradient($startColor, $endColor, $horizontal);
         }
 
