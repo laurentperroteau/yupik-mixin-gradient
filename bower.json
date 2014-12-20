@@ -5,7 +5,7 @@
   "authors": [
     "laurentperroteau <laurentperroteau@gmail.com>"
   ],
-  "description": "Mixin which applied a linear cross-browsers solution (IE7+)",
+  "description": "Mixin that generates a linear gradient background cross-browser solution",
   "main": "_mixin.gradient.scss",
   "keywords": [
     "grandwazoo",
